@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nnataraj.assignment2.CoverPageActivity">
+    <item
+        android:orderInCategory="100"
+        android:title="Cover page"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_linear_layout"
+        android:orderInCategory="101"
+        android:title="Linear layout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_calculator"
+        android:orderInCategory="102"
+        android:title="Simple calculator"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_movie_list"
+        android:orderInCategory="103"
+        android:title="Movie list"
+        app:showAsAction="never" />
+</menu>
